@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    color: white;
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+canvas {
+    border: 1px solid white;
+    background-color: #252525;
+}
+h1 {
+    margin: 0;
+}
+
+#startButton {
+    width: 200px;
+    height: 60px;
+    background-color: rgb(41, 215, 41);
+    border-color: rgb(135, 255, 117);
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    border-width: 3px;
+    font-weight: bold;
+    font-size: 30px;
+    cursor: pointer;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+}
+.container > h1 {
+    margin: 10px 0;
+}
+.menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 300px;
+    text-shadow: 0 4px 20px rgba(0,0,0,0.4);
+}
+.menu > h1 {
+    font-size: 64px;
+}
+.menu > p {
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+.left-panel {
+    position: absolute;
+    display: inline-block;
+    padding: 20px;
+    padding-top: 10px;
+    border-radius: 5px;
+    top: 100px;
+    left: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.controls {
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+    background: rgba(50, 50, 50, 0.4); /* напівпрозорий */
+    backdrop-filter: blur(15px);
+    padding: 20px;
+    padding-top: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.skins {
+    margin: 20px 0;
+    text-align: center;
+    display: flex;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+    background: rgba(50, 50, 50, 0.4);
+    backdrop-filter: blur(15px);
+    padding: 20px;
+    padding-top: 0;
+    border-radius: 5px;
+    flex-direction: column;
+}
+.skins button{
+    background-color: transparent;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding-top: 0;
+}
+.skin-buttons {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.skinImage {
+    width: 50px;
+    height: auto;
+    border-radius: 5px;
+    background-color: transparent;
+}

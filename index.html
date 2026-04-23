@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Styles/style.css">
+</head>
+<body background="Images/Background3.jpg">
+    <section class="Snake-Game">
+        <div class="left-panel">
+            <aside class="controls">
+                <h2>Controls</h2>
+                <p>Use W, A, S, D keys to move the snake</p>
+                <p>Press R to restart the game</p>
+            </aside>
+            
+        </div>
+        <div class="menu">
+            <h1>Snake Game</h1>
+            <p>Welcome to the Snake Game!</p>
+            <button id="startButton">Start Game</button>
+            <div class="skins">
+                <h4 class="skin-text">Choose your skin:</h4>
+                <div class="skin-buttons">
+                    <button id="appleSkin"><img class="skinImage" src="Images/Apple.png" alt="Apple"></button>
+                    <button id="grapeSkin"><img class="skinImage" src="Images/Grape.png" alt="Grape"></button>
+                    <button id="lemonSkin"><img class="skinImage" src="Images/Lemon.png" alt="Lemon"></button>
+                </div>
+            </div>
+        </div>
+        <div class="container" style="display: none;">
+            <h1>Snake game</h1>
+            <h1>Score: </h1>
+            <h1>High score: </h1>
+            <canvas id="view" width="500" height="500"></canvas>
+        </div>
+    </section>
+    
+    <script type="module" src="Script/main.js"></script>
+</body>
+</html>
