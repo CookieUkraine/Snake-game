@@ -12,24 +12,24 @@ const grapeSkinButton = document.getElementById('grapeSkin');
 const lemonSkinButton = document.getElementById('lemonSkin');
 
 appleSkinButton.style.border = "2px solid #ccc";
-let foodSkin = '../Images/Apple.png';
+let foodSkin = './Images/Apple.png';
 
 appleSkinButton.addEventListener('click', () => {
-    foodSkin = '../Images/Apple.png';
+    foodSkin = './Images/Apple.png';
     appleSkinButton.style.border = "2px solid #ccc";
     grapeSkinButton.style.border = "0px solid #ccc";
     lemonSkinButton.style.border = "0px solid #ccc";
 });
 
 grapeSkinButton.addEventListener('click', () => {
-    foodSkin = '../Images/Grape.png';
+    foodSkin = './Images/Grape.png';
     grapeSkinButton.style.border = "2px solid #ccc";
     appleSkinButton.style.border = "0px solid #ccc";
     lemonSkinButton.style.border = "0px solid #ccc";
 });
 
 lemonSkinButton.addEventListener('click', () => {
-    foodSkin = '../Images/Lemon.png';
+    foodSkin = './Images/Lemon.png';
     lemonSkinButton.style.border = "2px solid #ccc";
     appleSkinButton.style.border = "0px solid #ccc";
     grapeSkinButton.style.border = "0px solid #ccc";
